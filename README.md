@@ -5,7 +5,7 @@ Matrix
 ===
 matrix is a BSD licensed library that provides common matrix operations written in 
 Go, inspired by Numpy. It has full coverage for tests.
-It is currently in development.
+
 ## Documentation
 [Godoc](https://godoc.org/github.com/bugra/matrix)
 
