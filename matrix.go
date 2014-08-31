@@ -2,7 +2,6 @@ package matrix
 
 // http://docs.scipy.org/doc/numpy/reference/generated/numpy.matrix.html
 import (
-	"fmt"
 	"math/cmplx"
 	"sort"
 )
@@ -603,7 +602,6 @@ func Where(matrix [][]float64, function func(x float64) bool) (result []float64)
 	for ii := 0; ii < len(matrix); ii++ {
 		for jj := 0; jj < len(matrix[0]); jj++ {
 			if function(matrix[ii][jj]) {
-				fmt.Println(ii, jj, matrix[ii][jj])
 				result = append(result, matrix[ii][jj])
 			}
 		}
