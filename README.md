@@ -13,4 +13,15 @@ Go, inspired by Numpy. It has full coverage for tests.
 ## License
 [BSD License](https://github.com/bugra/matrix/blob/master/LICENSE)
 
-
+## Supported Functions
+- `where`
+- `take`
+- `dot product`
+- `determinant`
+= `minor matrix`
+- `cofactor matrix`
+- `apply`
+- `cumulative sum`
+- `lower triangle`
+- `upper triangle`
+- `diagonal`
