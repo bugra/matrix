@@ -7,4 +7,4 @@ go:
 script: go test -v -cover
 install:
   - export PATH=$PATH:$HOME/gopath/bin
-
+  - go get -v code.google.com/p/go.tools/cmd/cover
