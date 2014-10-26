@@ -18,7 +18,7 @@ Go, inspired by Numpy. It has full coverage for tests.
 - `take`
 - `dot product`
 - `determinant`
-= `minor matrix`
+- `minor matrix`
 - `cofactor matrix`
 - `apply`
 - `cumulative sum`
